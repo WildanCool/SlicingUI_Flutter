@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_slicing_ui_flutter/slicingUI-1/slicing1.dart';
+// import 'package:latihan_slicing_ui_flutter/slicingUI-1/slicing1.dart';
+import 'package:latihan_slicing_ui_flutter/slicingUI-1/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       // ),
-      home: Slicing1(),
+      home: SplashScreen(),
     );
   }
 }
