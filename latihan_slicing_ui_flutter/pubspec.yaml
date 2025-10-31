@@ -89,6 +89,10 @@ flutter:
     - assets/goTagihan.png
     - assets/goTransit.png
     - assets/goBox.png
+    - lib/slicingUI-2/assetsUI-2/train1.png
+    - lib/slicingUI-2/assetsUI-2/train2.png
+    - lib/slicingUI-2/assetsUI-2/train3.png
+    - lib/slicingUI-2/assetsUI-2/train4.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

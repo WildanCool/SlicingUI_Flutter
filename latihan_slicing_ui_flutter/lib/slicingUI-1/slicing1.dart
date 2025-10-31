@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponen1.dart/bannerUi1.dart';
+import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponenUI-1/bannerUi1.dart';
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponen1.dart/komponenUi1.dart';
-import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponen1.dart/kotakUi1.dart';
+import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponenUI-1/komponenUi1.dart';
+import 'package:latihan_slicing_ui_flutter/slicingUI-1/komponenUI-1/kotakUi1.dart';
 
 class Slicing1 extends StatefulWidget {
   Slicing1({super.key});
