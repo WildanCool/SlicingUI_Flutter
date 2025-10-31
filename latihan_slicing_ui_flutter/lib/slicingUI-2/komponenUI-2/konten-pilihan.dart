@@ -16,7 +16,7 @@ class _KontenPilihanState extends State<KontenPilihan> {
           width: 50,
           height: 50,
           decoration: BoxDecoration(
-            color: Colors.grey,
+            color: Colors.blue.shade100,
             borderRadius: BorderRadius.circular(50),
           ),
           child: SizedBox(

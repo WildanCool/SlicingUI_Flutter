@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:latihan_slicing_ui_flutter/slicingUI-2/komponenUI-2/konten-krl.dart';
 import 'package:latihan_slicing_ui_flutter/slicingUI-2/komponenUI-2/konten-pilihan.dart';
+import 'package:latihan_slicing_ui_flutter/slicingUI-2/komponenUI-2/konten-promo.dart';
 
 class Slicing2 extends StatefulWidget {
   const Slicing2({super.key});
@@ -233,14 +234,36 @@ class _Slicing2State extends State<Slicing2> {
                     ],
                   ),
 
+                  SizedBox(height: 20),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
-                    child: Row(),
+                    child: Row(
+                      spacing: 20,
+                      children: [
+                        KontenPromo(),
+                        KontenPromo(),
+                        KontenPromo(),
+                        KontenPromo(),
+                      ],
+                    ),
                   ),
                 ],
               ),
             ),
           ),
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.grey.shade300,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            IconButton(onPressed: () {}, icon: Icon(Icons.home)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.train)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.airplane_ticket)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.discount)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.person)),
+          ],
         ),
       ),
     );
