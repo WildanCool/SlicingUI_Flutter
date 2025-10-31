@@ -74,7 +74,7 @@ class _Slicing2State extends State<Slicing2> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Column(
-                            spacing: 12,
+                            spacing: 5,
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -235,15 +235,25 @@ class _Slicing2State extends State<Slicing2> {
                   ),
 
                   SizedBox(height: 20),
+
+                  // KONTEN2 PROMO
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       spacing: 20,
                       children: [
-                        KontenPromo(),
-                        KontenPromo(),
-                        KontenPromo(),
-                        KontenPromo(),
+                        KontenPromo(
+                          promo: 'lib/slicingUI-2/assetsUI-2/discount1.jpeg',
+                        ),
+                        KontenPromo(
+                          promo: 'lib/slicingUI-2/assetsUI-2/discount2.gif',
+                        ),
+                        KontenPromo(
+                          promo: 'lib/slicingUI-2/assetsUI-2/discount3.jpeg',
+                        ),
+                        KontenPromo(
+                          promo: 'lib/slicingUI-2/assetsUI-2/discount4.jpeg',
+                        ),
                       ],
                     ),
                   ),
