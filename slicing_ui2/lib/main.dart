@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+// import 'package:latihan_slicing_ui_flutter/slicingUI-1/slicing1.dart';
+// import 'package:latihan_slicing_ui_flutter/slicingUI-1/splash_screen.dart';
+import 'package:latihan_slicing_ui_flutter/slicing2.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      // theme: ThemeData(
+      //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      // ),
+      home: Slicing2(),
+    );
+  }
+}
