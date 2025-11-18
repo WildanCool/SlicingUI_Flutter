@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slicing_ui4/componens/konten-wallet1.dart';
+import 'package:slicing_ui4/componens/home_page/konten-wallet1.dart';
 
 class KotakWallet extends StatefulWidget {
   const KotakWallet({super.key});

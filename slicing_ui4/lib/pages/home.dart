@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:slicing_ui4/componens/konten-bannerPromo.dart';
-import 'package:slicing_ui4/componens/konten-pilihan.dart';
-import 'package:slicing_ui4/componens/konten-toko.dart';
-import 'package:slicing_ui4/componens/konten-wallet1.dart';
-import 'package:slicing_ui4/componens/kotak-wallet.dart';
+import 'package:slicing_ui4/componens/promo_page/promoHariIni.dart';
+import 'package:slicing_ui4/componens/home_page/konten-pilihan.dart';
+import 'package:slicing_ui4/componens/home_page/konten-toko.dart';
+// import 'package:slicing_ui4/componens/home_page/konten-wallet1.dart';
+import 'package:slicing_ui4/componens/home_page/kotak-wallet.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -29,7 +29,10 @@ class _HomeState extends State<Home> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      CircleAvatar(child: Icon(Icons.person)),
+                      CircleAvatar(
+                        backgroundColor: Colors.green.shade700 ,
+                        child: Icon(Icons.person, color: Colors.white),
+                      ),
                       Row(
                         spacing: 5,
                         children: [
@@ -153,29 +156,29 @@ class _HomeState extends State<Home> {
                         child: Row(
                           spacing: 15,
                           children: [
-                            const SizedBox(width: 0),
-                            KontenBannerPromo(
+                            SizedBox(width: 0),
+                            PromoHariIni(
                               atas: Colors.blue,
                               bawah: Colors.cyan,
                               judul: "Belanja Hemat, Diskon Hingga 70%!",
                               pendukung:
                                   "Nikmati potongan harga untuk semua kategori produk.",
                             ),
-                            KontenBannerPromo(
+                            PromoHariIni(
                               atas: Colors.purple,
                               bawah: Colors.pink,
                               judul: "Produk Baru Sudah Hadir!",
                               pendukung:
                                   "Khusus hari ini, ada bonus menarik untuk 100 pembeli pertama!",
                             ),
-                            KontenBannerPromo(
+                            PromoHariIni(
                               atas: Colors.red,
                               bawah: Colors.yellow,
                               judul: "Liburan Hemat, Perjalanan Nyaman",
                               pendukung:
                                   "Pesan tiketmu sekarang, jelajahi Indonesia lebih mudah! 🌴",
                             ),
-                            KontenBannerPromo(
+                            PromoHariIni(
                               atas: Colors.lightGreen,
                               bawah: Colors.limeAccent,
                               judul: "🎓 Upgrade Skill-mu Sekarang!",
@@ -379,32 +382,6 @@ class _HomeState extends State<Home> {
               ),
             ],
           ),
-        ),
-      ),
-
-      bottomNavigationBar: BottomAppBar(
-        color: Colors.green.shade100  ,
-        height: 65,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.home, color: Colors.green.shade700),
-            ),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.discount, color: Colors.green.shade700),
-            ),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.chat, color: Colors.green.shade700),
-            ),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.shopping_bag, color: Colors.green.shade700),
-            ),
-          ],
         ),
       ),
     );

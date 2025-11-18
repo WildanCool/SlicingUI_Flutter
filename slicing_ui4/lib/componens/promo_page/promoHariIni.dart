@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class KontenBannerPromo extends StatelessWidget {
+class PromoHariIni extends StatelessWidget {
   final Color atas;
   final Color bawah;
   final String judul;
   final String pendukung;
-  const KontenBannerPromo({
+  const PromoHariIni({
     super.key,
     required this.judul,
     required this.pendukung,
