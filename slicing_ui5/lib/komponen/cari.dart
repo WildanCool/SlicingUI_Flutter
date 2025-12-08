@@ -16,7 +16,7 @@ class Cari1 extends StatelessWidget {
               filled: true,
               fillColor: ClassName.color5,
               border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(5),
+                borderRadius: BorderRadius.circular(50),
               ),
               constraints: BoxConstraints(maxHeight: 35),
               contentPadding: EdgeInsets.all(0),

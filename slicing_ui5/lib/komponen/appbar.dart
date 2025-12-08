@@ -12,7 +12,6 @@ class Appbar1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final double tinggi = MediaQuery.of(context).size.height;
-    final double lebar = MediaQuery.of(context).size.width;
 
     return Stack(
       clipBehavior: Clip.none,
@@ -26,7 +25,7 @@ class Appbar1 extends StatelessWidget {
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [ClassName.color1, ClassName.color5],
+              colors: [Colors.purple, ClassName.color5],
             ),
           ),
           child: Column(
@@ -65,7 +64,7 @@ class Appbar1 extends StatelessWidget {
                           "Utama",
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.bold,
-                            color: Colors.red,
+                            color: Colors.purple,
                             fontSize: 8,
                           ),
                         ),
@@ -114,17 +113,17 @@ class Appbar1 extends StatelessWidget {
             // height: 180,
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [ClassName.color2, ClassName.color5],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [Colors.purple, Colors.pinkAccent],
               ),
               borderRadius: BorderRadius.circular(15),
-              border: Border.all(color: ClassName.color5),
+              border: Border.all(color: ClassName.color5, width: 3),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.grey,
-                  blurRadius: 3,
-                  offset: Offset(1, 2),
+                  color: Colors.deepPurple,
+                  blurRadius: 5,
+                  offset: Offset(2, 2),
                 ),
               ],
             ),
@@ -173,7 +172,7 @@ class Appbar1 extends StatelessWidget {
                         Divider(
                           indent: 12,
                           endIndent: 12,
-                          color: ClassName.color2,
+                          color: Colors.purple,
                           thickness: 1.2,
                         ),
                         Virgo(),
