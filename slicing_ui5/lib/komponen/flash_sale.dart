@@ -25,62 +25,193 @@ class FlashSale extends StatelessWidget {
               ),
             ),
           ),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              spacing: 15,
-              children: [
-                SizedBox(width: 5),
-                ProductList(
-                  image: 'images/produk1.png',
-                  namaProduk: "Ultra Milk",
-                  deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
-                  harga: "Rp 18.000,-",
+          Column(
+            spacing: 20,
+            children: [
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Column(
+                  children: [
+                    Row(
+                      spacing: 15,
+                      children: [
+                        SizedBox(width: 5),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
-                ProductList(
-                  image: 'images/produk2.jpg',
-                  namaProduk: "Sunlight",
-                  deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
-                  harga: "Rp 20.000,-",
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Column(
+                  children: [
+                    Row(
+                      spacing: 15,
+                      children: [
+                        SizedBox(width: 5),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
-                ProductList(
-                  image: 'images/produk3.jpg',
-                  namaProduk: "Pop Mie",
-                  deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
-                  harga: "Rp 7.000,-",
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Column(
+                  children: [
+                    Row(
+                      spacing: 15,
+                      children: [
+                        SizedBox(width: 5),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk1.png',
+                          namaProduk: "Ultra Milk",
+                          deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
+                          harga: "Rp 18.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk2.jpg',
+                          namaProduk: "Sunlight",
+                          deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
+                          harga: "Rp 20.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk3.jpg',
+                          namaProduk: "Pop Mie",
+                          deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
+                          harga: "Rp 7.000,-",
+                        ),
+                        ProductList(
+                          image: 'images/produk4.jpg',
+                          namaProduk: "Bebelac",
+                          deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
+                          harga: "Rp 120.000,-",
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
-                ProductList(
-                  image: 'images/produk4.jpg',
-                  namaProduk: "Bebelac",
-                  deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
-                  harga: "Rp 120.000,-",
-                ),
-                ProductList(
-                  image: 'images/produk1.png',
-                  namaProduk: "Ultra Milk",
-                  deskripsi: "Ultra Milk Cream, Fresh Milk 1,5 Liter.",
-                  harga: "Rp 18.000,-",
-                ),
-                ProductList(
-                  image: 'images/produk2.jpg',
-                  namaProduk: "Sunlight",
-                  deskripsi: "Sabun Cuci Piring 'Sekali Usap!', 1L",
-                  harga: "Rp 20.000,-",
-                ),
-                ProductList(
-                  image: 'images/produk3.jpg',
-                  namaProduk: "Pop Mie",
-                  deskripsi: "Rasa Mie Goreng, Bikin Naagiihhh",
-                  harga: "Rp 7.000,-",
-                ),
-                ProductList(
-                  image: 'images/produk4.jpg',
-                  namaProduk: "Bebelac",
-                  deskripsi: "Susu Bayi, Untuk Bayi 2 Tahun+",
-                  harga: "Rp 120.000,-",
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
           SizedBox(height: 20),
         ],
