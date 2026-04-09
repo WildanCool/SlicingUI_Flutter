@@ -71,6 +71,7 @@ class _ProductListState extends State<ProductList> {
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 2),
+                  padding: EdgeInsets.all(3),
                   width: double.infinity,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.red),
@@ -79,7 +80,10 @@ class _ProductListState extends State<ProductList> {
                   child: Center(
                     child: Text(
                       "Tambah",
-                      style: GoogleFonts.poppins(color: Colors.red.shade800),
+                      style: GoogleFonts.poppins(
+                        color: Colors.red.shade800,
+                        fontSize: 12,
+                      ),
                     ),
                   ),
                 ),

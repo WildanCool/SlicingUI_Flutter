@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_ui6/page/home.dart';
+import 'package:slicing_ui6/page/maxim.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Home(),
+      home: Maxim(),
     );
   }
 }
