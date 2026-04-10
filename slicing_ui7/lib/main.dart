@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:slicing_ui7/murojaah_pasca_ramadhan/murojaah.dart';
+// import 'package:animated_splash_screen/animated_splash_screen.dart';
+// import 'package:slicing_ui7/murojaah_pasca_ramadhan/murojaah.dart';
+import 'package:slicing_ui7/murojaah_pasca_ramadhan/project1.dart';
 // import 'package:project_kamis_jumat/murojaah_pasca_ramadhan/murojaah.dart';
 // import 'package:project_kamis_jumat/projectJumat/home.dart';
 // import 'package:project_kamis_jumat/projectKamis/project_kamis.dart';
@@ -18,13 +19,15 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: AnimatedSplashScreen(
-        duration: 3000,
-        splash: Icons.home,
-        nextScreen: Project(),
-        splashTransition: SplashTransition.fadeTransition,
-        backgroundColor: Colors.white,
-      ),
+      home: Project1(),
+
+      // home: AnimatedSplashScreen(
+      //   duration: 3000,
+      //   splash: Icons.home,
+      //   nextScreen: Project1(),
+      //   splashTransition: SplashTransition.fadeTransition,
+      //   backgroundColor: Colors.white,
+      // ),
     );
   }
 }
